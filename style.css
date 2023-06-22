@@ -1,0 +1,79 @@
+body {
+    font-family: Geologica;
+    background-color: black;
+    color: #E5E1EE;
+}
+
+.heading {
+    font-size: 5rem;
+    text-align: center;
+}
+
+
+.drumkit {
+    display: grid;
+    grid-template-columns: repeat(7, 8fr);
+    grid-template-rows: 3fr;
+    justify-items: center;
+}
+
+.drumkit button {
+    margin: 3rem;
+    cursor: pointer;
+    font-size: 2rem;
+    color: transparent;
+    background-color: #E5E1EE;
+    border: none;
+    height: 100px;
+    width: 100px;
+    border-radius: 5%;
+    /*color: #FB4D3D
+    D8F1A0
+    C0FDFB
+    42E2B8
+    
+    ;*/
+}
+
+.drumkit button:hover {
+    background-color: #42E2B8 ;
+}
+
+.drumkit p {
+    margin: 8px;
+}
+
+.drumkit .keys {
+    color: #42E2B8 ;
+    font-size: 3rem;
+}
+
+.drumkit .names {
+    font-size: 1.5rem;
+    font-style: italic;
+}
+
+.kick {
+    background-image: url("images/kick.png");
+    background-size: cover;
+}
+
+.snare {
+    background-image: url("images/snare.png");
+    background-size: cover;
+}
+
+.crash {
+    background-image: url("images/crash.png");
+    background-size: cover;
+}
+
+.hat {
+    background-image: url("images/hihat\ drum.png");
+    background-size: cover;
+}
+
+.tom {
+    background-image: url("images/tom.png");
+    background-size: cover;
+}
